@@ -18,7 +18,7 @@
 
 ## cat command
 
-![lscode](Screenshot Screenshot 2023-10-02 at 1.48.25 PM.png)
+![lscode](Screenshot 2023-10-02 at 1.48.25 PM.png)
 
 * Using cat with no arguments returned an empty line, which required exiting out of that command line because there was no content to print out nor a path to a file
 * Using cat with a path to the *messages* directory returned the path and that it was a directory because cat is used to print contents of files, not directories
