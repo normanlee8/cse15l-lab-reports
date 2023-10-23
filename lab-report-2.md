@@ -1,20 +1,35 @@
 # Lab Report 2 - Norman Lee
 
+For each of the two screenshots, describe:
+
+    Which methods in your code are called?
+    What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+    How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
+Part 2
 
 ## Part 1
 
-![cdcode](Screenshot 2023-10-02 at 1.47.58 PM.png)
+![stringservercode](Screenshot 2023-10-22 at 5.49.34 PM.png)
 
-* The working directory was */* or the *root* directory. From this directory, running cd without arguments changes the directory to *~* or *home*. This is not an error since running cd with no arguments changes the directory to the *home* directory regardless of the current working directory. With the working directory being the *home* directory, running cd without any arguments did not change the directory. This is not an error because cd returned the current working directory which is the *home* directory. 
-* The working directory was the *home* directory. Using cd with a path to the *messages* directory changed the working directory to the *messages* directory. This is not an error because that was the expected result.
-* The working directory was the *messages* directory. Using cd with a path to the *fr.txt* file returned an error because cd is used to change directories and *fr.txt* is not a directory, it is a file. This is not an error because the expected result of using cd with a path to a file would be an error.
+![add1code](Screenshot 2023-10-22 at 4.59.32 PM.png)
+
+* With the request being */add-message?s=Hello*, the handleRequest method is called in the Handler class. The relevant arguments include */add-message?s=Hello* for URI url as url.getPath() is */add-message* and url.getQuery() is *s=Hello*.  The values of any relevant fields include the empty string ("") for String str and 0 for int listNum. The values change from this specific request with str updating to *1. Hello \n* and listNum incrementing by 1 to become 1.
+
+![add2code](Screenshot 2023-10-22 at 5.50.21 PM.png)
+
+* With the request being */add-message?s=How are you*, the handleRequest method is called in the Handler class. The relevant arguments include */add-message?s=How are you* for URI url as url.getPath() is */add-message* and url.getQuery() is *s=How are you*.  The values of any relevant fields include *1. Hello \n* for String str and 1 for int listNum. The values change from this specific request with str updating to *1. Hello \n 2. How are you \n* and listNum incrementing by 1 to become 2.
 
 ## Part 2
 
-![lscode](Screenshot 2023-10-02 at 1.48.15 PM.png)
+![privkey](Screenshot 2023-10-22 at 5.40.11 PM.png)
 
+![pubkey](Screenshot 2023-10-22 at 5.44.32 PM.png)
+
+![login](Screenshot 2023-10-22 at 5.40.33 PM.png)
 
 ## Part 3
 
-![cdcode](Screenshot 2023-10-02 at 1.47.58 PM.png)
+* In lab for Week 2 and 3, I have learned how to utilize the *ssh* command to remote connect to a school server. In addition, I manipulated servers with the URL requests. Lastly, I learned new commands like mkdir and scp, which allowed me to store my password into ssh keys so I wouldn't have to type my password each time I login to my remote account. 
 
