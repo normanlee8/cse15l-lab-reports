@@ -1,15 +1,5 @@
-# Norman
+# Norman Lee
 
-*Lee*
+[Lab Report 1](https://normanlee8.github.io/cse15l-lab-reports/lab-report-1.html)
 
-**WOW**
-
-[again](https://normanlee8.github.io/cse15l-lab-reports/index.html)
-
-## Favorite Teams
-* 49ers
-* Warriors
-* Giants
-
----
-> howdy
+[Lab Report 2](https://normanlee8.github.io/cse15l-lab-reports/lab-report-2.html)
