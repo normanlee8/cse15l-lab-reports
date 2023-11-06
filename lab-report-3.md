@@ -24,5 +24,39 @@
 
 * The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
+Failure-inducing input:
+
+SCREENSHOT
+
+Input that doesn't induce a failure:
+
+SCREENSHOT
+
+* The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+
+Before:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+After:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
+The fix adds the elements in 'arr' into 'newArray' in reversed order and returns the 'newArray'.
+
 
 ## Part 2 - Researching Commands
