@@ -83,7 +83,7 @@ normanlee@Normans-MBP docsearch % grep -r "acute coronary syndrome " ./technical
 normanlee@Normans-MBP docsearch % 
 ```
 
-The -r option searches every file recursively in a directory and it is useful for finding a given string in a large database or large number of files.
+The -r option searches every file recursively for "acute coronary syndrome" in the biomed directory in the first example and searches for the same string in the 911report directory. It is useful for finding a given string in a large database or a large number of files.
 
 
 **grep -i**
@@ -121,7 +121,7 @@ normanlee@Normans-MBP docsearch % grep -i "allhat" ./technical/biomed/1468-6708-
         increasing the incidence of CHF in the ALLHAT trial, it
         failure findings in ALLHAT, the results support the current
 ```
-The -i option ignores case-sensitivity and is useful for finding a given string without worrying about the case. It is useful for finding strings with various cases. 
+The -i option ignores case sensitivity with "imagination" and "allhat" in the examples. It is useful for finding a given string without worrying about the case. It is useful for finding strings with various cases. 
 
 **grep -o**
 
@@ -157,7 +157,7 @@ Example
 Example
 ```
 
-The -o option only outputs the given string and is useful for isolating certain information.
+The -o option only outputs the given string, which is "imagination" and "Example" in these examples. It is useful for isolating certain information in a certain file.
 
 **grep -l**
 
@@ -197,4 +197,4 @@ normanlee@Normans-MBP docsearch % grep -l "acute coronary" ./technical/biomed/*
 ./technical/biomed/cvm-2-6-286.txt
 ```
 
-The -l option outputs the files that have the given string, which is useful for finding files that contain the string.
+The -l option outputs the files that have the given string, which is useful for finding files that contain the string. In the examples, it searches for "9/11" and "acute coronary" and returns the files that contain the given string.
