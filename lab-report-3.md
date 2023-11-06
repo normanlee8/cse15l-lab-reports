@@ -56,7 +56,7 @@ static int[] reversed(int[] arr) {
   }
 ```
 
-The fix adds the elements in 'arr' into 'newArray' in reversed order and returns the 'newArray'.
+The fix changes 'arr' to 'newArray' in the for loop so that it adds the elements in 'arr' into 'newArray' in reversed order and returns the 'newArray'.
 
 
 ## Part 2 - Researching Commands
