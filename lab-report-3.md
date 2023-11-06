@@ -26,11 +26,11 @@
 
 Failure-inducing input:
 
-SCREENSHOT
+![FII](lab3ss2.png)
 
 Input that doesn't induce a failure:
 
-SCREENSHOT
+![nonFail](lab3ss1.png)
 
 * The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 
