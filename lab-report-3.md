@@ -63,6 +63,8 @@ The fix changes 'arr' to 'newArray' in the for loop so that it adds the elements
 
 grep -r
 
+[Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
+
 Example 1:
 ```
 normanlee@Normans-MBP docsearch % grep -r "acute coronary syndrome " ./technical/biomed
@@ -85,6 +87,8 @@ The -r option searches every file recursively in a directory and it is useful fo
 
 
 grep -i
+
+[Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
 
 Example 1:
 ```
@@ -121,6 +125,8 @@ The -i option ignores case-sensitivity and is useful for finding a given string 
 
 grep -o
 
+[Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
+
 Example 1:
 ```
 normanlee@Normans-MBP docsearch % grep -o "imagination" ./technical/911report/chapter-11.txt
@@ -154,6 +160,8 @@ Example
 The -o option only outputs the given string and is useful for isolating certain information.
 
 grep -l
+
+[Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
 
 Example 1:
 ```
