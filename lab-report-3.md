@@ -61,7 +61,7 @@ The fix changes 'arr' to 'newArray' in the for loop so that it adds the elements
 
 ## Part 2 - Researching Commands
 
-grep -r
+**grep -r**
 
 [Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
 
@@ -86,7 +86,7 @@ normanlee@Normans-MBP docsearch %
 The -r option searches every file recursively in a directory and it is useful for finding a given string in a large database or large number of files.
 
 
-grep -i
+**grep -i**
 
 [Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
 
@@ -123,7 +123,7 @@ normanlee@Normans-MBP docsearch % grep -i "allhat" ./technical/biomed/1468-6708-
 ```
 The -i option ignores case-sensitivity and is useful for finding a given string without worrying about the case. It is useful for finding strings with various cases. 
 
-grep -o
+**grep -o**
 
 [Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
 
@@ -159,7 +159,7 @@ Example
 
 The -o option only outputs the given string and is useful for isolating certain information.
 
-grep -l
+**grep -l**
 
 [Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
 
