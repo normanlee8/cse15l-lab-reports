@@ -63,6 +63,7 @@ The fix changes 'arr' to 'newArray' in the for loop so that it adds the elements
 
 grep -r
 
+Example 1:
 ```
 normanlee@Normans-MBP docsearch % grep -r "acute coronary syndrome " ./technical/biomed
 ./technical/biomed/1471-2121-3-11.txt:        anticoagulant [ 1 ] , acute coronary syndrome [ 4 ] ,
@@ -74,13 +75,18 @@ normanlee@Normans-MBP docsearch % grep -r "acute coronary syndrome " ./technical
 ./technical/biomed/1468-6708-3-3.txt:        within 10 days of an acute coronary syndrome and
 ```
 
+Example 2:
 ```
 normanlee@Normans-MBP docsearch % grep -r "acute coronary syndrome " ./technical/911report
 normanlee@Normans-MBP docsearch % 
 ```
 
+The -r option searches every file recursively in a directory and it is useful for finding a given string in a large database or large number of files.
+
+
 grep -i
 
+Example 1:
 ```
 normanlee@Normans-MBP docsearch % grep -i "imagination" ./technical/911report/chapter-11.txt
             We believe the 9/11 attacks revealed four kinds of failures: in imagination, policy,
@@ -93,6 +99,7 @@ normanlee@Normans-MBP docsearch % grep -i "imagination" ./technical/911report/ch
                 invasion. These policy challenges are linked to the problem of imagination we have
 ```
 
+Example 2:
 ```
 normanlee@Normans-MBP docsearch % grep -i "allhat" ./technical/biomed/1468-6708-3-7.txt
         (ALLHAT), the role of peripheral alpha-1 antagonists in the
@@ -110,3 +117,76 @@ normanlee@Normans-MBP docsearch % grep -i "allhat" ./technical/biomed/1468-6708-
         increasing the incidence of CHF in the ALLHAT trial, it
         failure findings in ALLHAT, the results support the current
 ```
+The -i option ignores case-sensitivity and is useful for finding a given string without worrying about the case. It is useful for finding strings with various cases. 
+
+Example 1:
+grep -o
+
+```
+normanlee@Normans-MBP docsearch % grep -o "imagination" ./technical/911report/chapter-11.txt
+imagination
+imagination
+imagination
+imagination
+imagination
+```
+
+Example 2:
+```
+normanlee@Normans-MBP docsearch % grep -o "Example" ./technical/biomed/1468-6708-3-4.txt
+Example
+Example
+Example
+Example
+Example
+Example
+Example
+Example
+Example
+Example
+Example
+Example
+Example
+Example
+Example
+```
+
+The -o option only outputs the given string and is useful for isolating certain information.
+
+Example 1:
+grep -l
+
+```
+normanlee@Normans-MBP docsearch % grep -l "9/11" ./technical/911report/*
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-8.txt
+./technical/911report/chapter-9.txt
+./technical/911report/preface.txt
+```
+
+Example 2:
+```
+normanlee@Normans-MBP docsearch % grep -l "acute coronary" ./technical/biomed/*
+./technical/biomed/1468-6708-3-3.txt
+./technical/biomed/1471-2121-3-11.txt
+./technical/biomed/1472-6963-3-12.txt
+./technical/biomed/1475-2891-2-1.txt
+./technical/biomed/cvm-2-4-180.txt
+./technical/biomed/cvm-2-4-187.txt
+./technical/biomed/cvm-2-6-286.txt
+```
+
+The -l option outputs the files that have the given string, which is useful for finding files that contain the string.
