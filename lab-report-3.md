@@ -119,9 +119,9 @@ normanlee@Normans-MBP docsearch % grep -i "allhat" ./technical/biomed/1468-6708-
 ```
 The -i option ignores case-sensitivity and is useful for finding a given string without worrying about the case. It is useful for finding strings with various cases. 
 
-Example 1:
 grep -o
 
+Example 1:
 ```
 normanlee@Normans-MBP docsearch % grep -o "imagination" ./technical/911report/chapter-11.txt
 imagination
@@ -153,9 +153,9 @@ Example
 
 The -o option only outputs the given string and is useful for isolating certain information.
 
-Example 1:
 grep -l
 
+Example 1:
 ```
 normanlee@Normans-MBP docsearch % grep -l "9/11" ./technical/911report/*
 ./technical/911report/chapter-1.txt
