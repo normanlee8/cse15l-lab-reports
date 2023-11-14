@@ -161,7 +161,7 @@ The -o option only outputs the given string, which is "imagination" and "Example
 
 **grep -l**
 
-[Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
+https://man7.org/linux/man-pages/man1/grep.1.html
 
 Example 1:
 ```
