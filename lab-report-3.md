@@ -63,7 +63,7 @@ The fix changes 'arr' to 'newArray' in the for loop so that it adds the elements
 
 **grep -r**
 
-[Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
+https://man7.org/linux/man-pages/man1/grep.1.html
 
 Example 1:
 ```
@@ -88,7 +88,7 @@ The -r option searches every file recursively for "acute coronary syndrome" in t
 
 **grep -i**
 
-[Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
+https://man7.org/linux/man-pages/man1/grep.1.html
 
 Example 1:
 ```
@@ -125,7 +125,7 @@ The -i option ignores case sensitivity with "imagination" and "allhat" in the ex
 
 **grep -o**
 
-[Source](https://man7.org/linux/man-pages/man1/grep.1.html) 
+https://man7.org/linux/man-pages/man1/grep.1.html
 
 Example 1:
 ```
