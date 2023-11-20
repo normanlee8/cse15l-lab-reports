@@ -9,7 +9,7 @@
 <up><Enter>
 ```
 
-The `ssh cs15lfa23cp@ieng6.ucsd.edu` command was 1 up in the search history, so I used up arrow to access it. 
+The `ssh cs15lfa23cp@ieng6.ucsd.edu` command was 1 up in the search history, so I used `up arrow` to access it. 
 
 ## Step 5 -Clone your fork of the repository from your Github account (using the SSH URL)
 
@@ -20,7 +20,7 @@ The `ssh cs15lfa23cp@ieng6.ucsd.edu` command was 1 up in the search history, so 
 <up><Enter>
 ```
 
-The `git clone git@github.com:normanlee8/lab7.git` command was 1 up in the search history, so I used up arrow to access it. 
+The `git clone git@github.com:normanlee8/lab7.git` command was 1 up in the search history, so I used `up arrow` to access it. 
 
 ## Step 6 - Run the tests, demonstrating that they fail
 
@@ -57,7 +57,7 @@ I accessed the `vim ListExamples.java` command by typing `vim L` then used `tab`
 <up><up><Enter>
 ```
 
-The `bash test.sh` command was 2 up in the search history so I used up arrow twice to access it.
+The `bash test.sh` command was 2 up in the search history so I used `up arrow` twice to access it.
 
 ## Step 9 - Commit and push the resulting change to your Github account (you can pick any commit message!)
 
