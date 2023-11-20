@@ -36,9 +36,9 @@ I typed `cd lab7` to change directories and `bash test.sh` to run the tests. I t
 
 ## Step 7 - Edit the code file to fix the failing test
 
-![Image](step7.png)
-
 ![Image](step7ag.png)
+
+![Image](step7.png)
 
 **Exact Keys:** 
 ```
