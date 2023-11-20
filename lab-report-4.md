@@ -32,7 +32,7 @@ cd lab7<Enter>
 bash test.sh<Enter>
 ```
 
-I typed `cd lab7` to change directories and `bash test.sh` to run the tests. I didn't use any commands since it was quick to type.
+I typed `cd lab7` to change directories and `bash test.sh` to run the tests. I typed it rather than using something like `up arrow` since it was quick to type.
 
 ## Step 7 - Edit the code file to fix the failing test
 
