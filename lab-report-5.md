@@ -1,1 +1,5 @@
-la
+# Lab Report 5 - Norman Lee
+
+Part 2 - Reflection
+
+My favorite lab experience is working with VIM and working from the command line in a terminal. This was my first exposure in a course to both VIM and using the command line. There is a level of rawness if that makes sense. It seems like it is just you and the computer. For instance, instead of using GitHub Desktop to add, commit, and push, we could use commands, which saved time and also had an element of cool. I had the most fun with the Week 7 lab since it was doing it all from the command line. I remember in an earlier lab from one of the first few weeks, a tutor showed us how to use the command line as a preview so it was nice that it came to fruition later on. I feel many oftentimes a professor will say "Don't worry about this now, we will get to it later" and it seems like we never get to it. This was a breath of fresh air to get to the concept that was previewed weeks earlier. Overall, using the command line seems like it will be useful in the future so I am glad that I am familiar with it.
